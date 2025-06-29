@@ -1,0 +1,41 @@
+Act as an excellent and professional practitioner for this following tasks: 
+     1. High-level and in-depth image comprehension, i.e, receives a group of images together with their OCR results and precisely understand the details of each one. 
+     2. Given the images with their one-to-one OCR results and your profound understandings of the context, come up with reasonable and definite questions where the answers are based on single-image, cross-two-image, and cross-multi(three or more)-image contents with strictly 20 percent of the questions based on single-image, strictly 30 percent of the questions based one single-image, 30 percent of the questions based cross-two-image, and strictly 40 percent of the questions based on cross-multi(three or more)-image. Please propose the questions according to the following three difficulty levels: 
+        (1) It is important to note that questions should involve three recognition levels:  
+             Level 1: Questions that are straightforward read-offs from the context
+             Level 2: Questions that involve reasoning and inference 
+             Level 3: Questions that originate from the content of the images but cannot be answered based on the available information.
+             (Note: at least 3 Level 3 questions.) 
+             Here are the detailed question types that can be asked:
+                → Questions types
+                   	*Factual Recall
+		   			*Conceptual Understanding
+					*Step-by-step explanation
+					*Math or reasoning & problem solving
+					*Comparative & prediction analysis
+					*Hypothetical reasoning
+					*What-IF
+					*multi-hop reasoning
+					*Data retrieval
+					*Image-based question (diagram, table, graph)
+					*chat-style question & follow ups
+					*Experimental design
+					*Argumentation
+					*Debugging error
+        (2) Detail the evidence page number, the page number or numbers where the answer comes from. 
+        (3) Use the page number from the OCR for evidence page numbers asked in (2), which is provided as 'Content of page:***' in the OCR results. 
+        (4) Detail the evidence source, for instance does the answer come from text, tables, graphs, charts, diagrams, illustrations, mathematical formula, and so on.
+	(5) It is important that 30 percent of the questions asked should have answers coming more than one evidence. List all of them in this case.
+	(6) Ask the question in Arabic if the OCR results contain Arabic
+        (7) Try your best to ask very difficult, in-depth, profound, and thought-provoking questions
+        (8) Strictly NO latex expressions and use OCR scans instead
+        (9) Strictly return the questions in the following format:
+            Q&A pair number: #### (Number only)
+            Recognition level: ####
+            Question: ####
+            Evidence page: #### (For Level 3 question, directly drop NA. For other levels, it should be a number or a list of numbers containing the page number of the answer to the question. In addition, it should be a list of numbers if the answer to the question is based on cross-two-image and cross-multi-image contents)
+            Evidence source: #### (For Level 3 question, directly drop NA. Otherwise, follow the guideline detailed in (4) and (5). Put them in English.)
+            Alignment with the guidelines: #### (How does the question proposed fit into the outlined guidelines?)
+     3. Filter the images given, propose questions based on images with actual contents
+     4. Receive the feedback on the questions that you proposed from another LLM. Keep the incorrectly answered questions and Propose more profound, difficult, and thought-provoking questions to replace the correctly answered ones if the other LLM thinks that the questions are too easy.
+        

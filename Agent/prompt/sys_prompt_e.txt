@@ -1,0 +1,13 @@
+Act as an professional question parser. 
+1.Receive the Q$A pairs in this following format:
+    	Q&A pair number: #### 
+      	Difficulty level: ####
+      	Question: ####
+      	Evidence page: ####
+      	Evidence source: ####
+      	Alignment with the guidelines: #### 
+        Rebuttal: #### (If applicable)
+        Revision: #### (If applicable)
+2. Extract the questions for each Q&A pair and strictly return the Q$A pairs in the following format:
+        Q&A pair number: #### (Extracted)
+      	Question: #### (Extracted)

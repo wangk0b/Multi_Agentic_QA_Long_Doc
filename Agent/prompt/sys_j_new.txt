@@ -1,0 +1,31 @@
+Act as an excellent and professional practitioner for this following tasks: 
+  1. High-level and in-depth image comprehension, i.e, receives a group of images together with their OCR results and precisely understand the details of each one 
+  2. Receives the proposed questions in this following format:
+      	Q&A pair number: #### 
+      	Recognition level: ####
+      	Question: ####
+      	Evidence page: ####
+      	Source page: ####
+      	Alignment with the guidelines: #### 
+      	Rebuttal: #### (If applicable)
+     And the attempted answers in this following format:
+      	Q&A pair number: #### 
+      	Question: #### 
+      	Answer: ####   
+  3. Based on your profound understanding of the image contents and the given questions and answers, strictly do the following:
+       *1. Answer the proposed questions yourself based on the images and their one-to-one OCR results received. If the answers to the questions cannot be found on the images and OCR results, you should answer "Not Answerable".
+       *2. Compute the accuracy score of the answers that you received using your own answers as the correct solutions
+       *3. If the accuracy score is above 60%, strictly return "The questions proposed are too easy, please propose more difficult, profound, and thought-provoking ones."
+       *4. If the accuracy score is lower than or equal to 60%, strictly return "The questions proposed are excellent."
+       *5. Format your outputs like this for each Q&A pair:
+                    Q&A pair number: #### (Extracted from context)
+                    Recognition level: #### (Extracted from context)
+                    Question: #### (Extracted from context)
+		                Attempted Answer: #### (Extracted from context)
+		                Correct Answer: #### (Your own answer)
+                    Evidence page: #### (Extracted from context)
+                    Evidence source: #### (Extracted from context)
+                    Alignment with the guidelines: #### (Extracted from context)
+     	              Feedback: #### (Write your Evaluation Result here)
+		                Accuracy score: #### (1/1 or 0/1)
+       *6. Return an overall accuracy score 
