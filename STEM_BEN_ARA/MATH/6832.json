@@ -1,0 +1,122 @@
+[
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "كيف يمكن أن يؤثر استخدام موقع كتبي المدرسية على توزيع المنهج؟",
+        "Correct Answer": "موقع كتبي المدرسية يمكن أن يؤثر على توزيع المنهج من خلال توفير المواد الدراسية، الحلول، الشرح، توزيع المناهج، التحاضير، وأوراق العمل التي يمكن للمعلمين استخدامها أو تعديلها حسب الحاجة.",
+        "Evidence page": "0, 1, 2",
+        "Evidence source": "Text",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of three images."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "ما هي الفائدة من استخدام الاختبارات التراكمية في توزيع المنهج؟",
+        "Correct Answer": "الاختبارات التراكمية تساعد في تقييم فهم الطلاب للمادة بشكل دوري، مما يمكن المعلمين من تعديل توزيع المنهج بناءً على نتائج هذه الاختبارات.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "كيف يمكن أن يساعد التوزيع المبدئي للمنهج في تحسين أداء الطلاب؟",
+        "Correct Answer": "التوزيع المبدئي للمنهج يساعد في تحسين أداء الطلاب من خلال توفير خطة واضحة ومنظمة للدروس، مما يسهل على الطلاب متابعة المادة الدراسية وفهمها بشكل أفضل.",
+        "Evidence page": "1, 2",
+        "Evidence source": "Text",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of two images."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "ما هي الفائدة من استخدام خطة علاجية وبرامج إثرائية في توزيع المنهج؟",
+        "Correct Answer": "خطة علاجية وبرامج إثرائية تساعد في تلبية احتياجات الطلاب المختلفة، سواء كانوا بحاجة إلى دعم إضافي أو تحديات إضافية، مما يعزز من فهمهم للمادة الدراسية.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "كيف يمكن أن يساعد جدول الإشارات في فهم الأنماط؟",
+        "Correct Answer": "جدول الإشارات يساعد في فهم الأنماط من خلال تقديم تمثيل بصري للبيانات، مما يسهل على الطلاب التعرف على الأنماط والعلاقات بين الأرقام.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "ما هي العلاقة بين الطرح باستخدام حقائق جمع العدد ونفسه وحل المسألة تحقق؟",
+        "Correct Answer": "العلاقة بين الطرح باستخدام حقائق جمع العدد ونفسه وحل المسألة تحقق تكمن في أن فهم حقائق الجمع يساعد الطلاب في حل مسائل الطرح بشكل أكثر فعالية ودقة.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "كيف يمكن أن يساعد موقع كتبي المدرسية في تحسين أداء الطلاب؟",
+        "Correct Answer": "موقع كتبي المدرسية يمكن أن يساعد في تحسين أداء الطلاب من خلال توفير الموارد التعليمية المتنوعة مثل الكتب الدراسية، الحلول، الشرح، وأوراق العمل التي يمكن للطلاب استخدامها لتعزيز فهمهم للمادة الدراسية.",
+        "Evidence page": "0, 1",
+        "Evidence source": "Text",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of two images."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "ما هي الفائدة من قراءة البيانات الممثلة بالصور في توزيع المنهج؟",
+        "Correct Answer": "قراءة البيانات الممثلة بالصور تساعد في توزيع المنهج من خلال تقديم معلومات بصرية تسهل على الطلاب فهم البيانات والأنماط بشكل أفضل.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "ما هي العلاقة بين التهيئة وخصائص الجمع في توزيع المنهج؟",
+        "Correct Answer": "التهيئة تساعد في تقديم خصائص الجمع بشكل تدريجي ومنظم، مما يسهل على الطلاب فهم هذه الخصائص وتطبيقها في مسائل الجمع.",
+        "Evidence page": "1",
+        "Evidence source": "Table",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of a single image."
+    },
+    {
+        "Book name": "6832",
+        "Length": 3,
+        "Recognition level": "2",
+        "Question": "كيف يمكن أن يؤثر التوزيع المبدئي للمنهج على أداء الطلاب؟",
+        "Correct Answer": "التوزيع المبدئي للمنهج يمكن أن يؤثر على أداء الطلاب من خلال توفير خطة دراسية واضحة ومنظمة، مما يساعد الطلاب على متابعة الدروس بشكل أفضل وتحقيق نتائج أفضل.",
+        "Evidence page": "1, 2",
+        "Evidence source": "Text",
+        "Accuracy score": 1,
+        "Evidence validation": true,
+        "Alignment with the guidelines": "This question involves reasoning and inference based on the content of two images."
+    }
+]
